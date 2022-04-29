@@ -18,7 +18,7 @@ public class Order {
         return amount + shipFeed;
         public int total(){
             if (delivery instanceof ShopeeDelivery){
-
+                return amount;
             }else {
                 return amount + shipFeed;
             }
