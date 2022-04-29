@@ -10,13 +10,14 @@ public class Order {
         this.delivery = delivery;
         shipFeed = delivery.price;
     }
-    /*
+
     public int total() {
         if (shipFeed == 19 && amount >= 199) {
             shipFeed = 0;
         }
         return amount + shipFeed;
-        public int total(){
+    }
+    /*public int total(){
             if (delivery instanceof ShopeeDelivery){
                 return amount;
             }else {
