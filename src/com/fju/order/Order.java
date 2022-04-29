@@ -17,13 +17,14 @@ public class Order {
         }
         return amount + shipFeed;
     }
-    /*public int total(){
-            if (delivery instanceof ShopeeDelivery){
+    /*
+    public int total(){
+        if (delivery instanceof ShopeeDelivery){
                 return amount;
-            }else {
+        }else{
                 return amount + shipFeed;
-            }
-        }
+             }
+     }
     */
 }
 
